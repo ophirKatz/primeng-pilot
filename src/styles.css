@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0px;
+  min-height: 100vh;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex {
+  flex-direction: row;
+}
