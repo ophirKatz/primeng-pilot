@@ -1,6 +1,7 @@
 import { RouterModule, Routes } from '@angular/router';
 
 import { GridComponent } from './grid/grid.component';
+import { LinechartComponent } from './linechart/linechart.component';
 import { NgModule } from '@angular/core';
 import { TableComponent } from './table/table.component';
 import { TreeComponent } from './tree/tree.component';
@@ -29,7 +30,7 @@ const routes: Routes = [
   },
   {
     path: 'linechart',
-    component: TreeComponent
+    component: LinechartComponent
   }
 ];
 

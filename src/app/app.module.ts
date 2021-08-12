@@ -3,9 +3,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { CalendarModule } from 'primeng/calendar';
+import { ChartModule } from 'primeng/chart';
 import { DropdownModule } from 'primeng/dropdown';
 import { GridComponent } from './grid/grid.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LinechartComponent } from './linechart/linechart.component';
 import { MenuModule } from 'primeng/menu';
 import { MultiSelectModule } from 'primeng/multiselect';
 import { NgModule } from '@angular/core';
@@ -22,12 +24,14 @@ import { TreeModule } from 'primeng/tree';
     SidebarComponent,
     TreeComponent,
     GridComponent,
-    TableComponent
+    TableComponent,
+    LinechartComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CalendarModule,
+    ChartModule,
     MenuModule,
     MultiSelectModule,
     ProgressBarModule,
